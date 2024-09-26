@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	path := "/Users/seufert/dev/0x434d53/things-go/Things Database.thingsdatabase/main.sqlite"
+	path := "***"
 	db := dal.New(path)
 	tasks, err := db.ReadAllTasks()
 	if err != nil {
